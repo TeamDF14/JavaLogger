@@ -1,11 +1,10 @@
-import java.util.logging.Level;
-
 /**
  * It's just a simple example how you can use the Logging class.
  *
  * @author Stefan Kuppelwieser <edelblistar@online.de>
  * @version 1.0
  */
+import java.util.logging.Level;
 
 public class Main {
 

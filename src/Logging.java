@@ -1,9 +1,3 @@
-import java.io.IOException;
-import java.util.logging.FileHandler;
-import java.util.logging.Level;
-import java.util.logging.Logger;
-import java.util.logging.SimpleFormatter;
-
 /**
  * The class implements the logging for the whole project
  * It contains info, severe, warning, finest.
@@ -11,6 +5,13 @@ import java.util.logging.SimpleFormatter;
  * @author Stefan Kuppelwieser <edelblistar@online.de>
  * @version 1.0
  */
+import java.io.IOException;
+import java.util.logging.FileHandler;
+import java.util.logging.Level;
+import java.util.logging.Logger;
+import java.util.logging.SimpleFormatter;
+
+
 public class Logging {
 
   /**
