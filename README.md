@@ -10,10 +10,10 @@ Logging logging = new Logging();
 logging.start();
 
 // messages
-Logging.logger.log(Level.WARNING, "No group entered");
-Logging.logger.log(Level.INFO, "Team: Bayern Muenchen entered");
-Logging.logger.log(Level.SEVERE, "This is as severe message");
-Logging.logger.log(Level.FINEST, "this ist a finest message");
+logger.log(Level.WARNING, "No group entered");
+logger.log(Level.INFO, "Team: Bayern Muenchen entered");
+logger.log(Level.SEVERE, "This is as severe message");
+logger.log(Level.FINEST, "this ist a finest message");
 
 // stopLogging
 // You only have to create it once. For example in the main
