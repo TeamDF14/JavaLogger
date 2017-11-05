@@ -1,25 +1,24 @@
-package logging;
-
+/**
+ * The class implements the logging for the whole project
+ * It contains info, severe, warning, finest.
+ *
+ * @author Stefan Kuppelwieser <edelblistar@online.de>
+ * @version 1.0.3
+ */
 import java.io.IOException;
 import java.util.logging.FileHandler;
 import java.util.logging.Level;
 import java.util.logging.Logger;
 import java.util.logging.SimpleFormatter;
 
-/**
- * The class implements the logging for the whole project
- * It contains info, severe, warning, finest.
- *
- * @author Stefan Kuppelwieser <edelblistar@online.de>
- * @version 1.0.2
- */
+
 public class Logging {
 
     /**
      * With this static logger you can log information of the logging levels Info, severe, warning,
      * fines.
      */
-    public Logger logger = Logger.getLogger("MyLog");
+    public static Logger logger = Logger.getLogger("MyLog");
 
     /**
      * Var filehandler. It will once be initiated in the start method to save the logging file
@@ -62,15 +61,7 @@ public class Logging {
                 }
             }
         });
-    }
 
-    /**
-     * Write the log and close it.
-     */
-    public void logAndClose(Level level, String msg){
-
-        logger.log(level, msg);
-        stop();
     }
 
     /**
@@ -79,4 +70,6 @@ public class Logging {
     public void stop() {
         this.filehandler.close();
     }
+
+
 }

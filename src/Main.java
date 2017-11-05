@@ -14,11 +14,11 @@ public class Main {
         Logging logging = new Logging();
         logging.start();
 
-        // messages
+        // examples
         Logging.logger.log(Level.WARNING, "No group entered");
         Logging.logger.log(Level.INFO, "Team: Bayern Muenchen entered");
-        Logging.logger.log(Level.SEVERE, "This is as severe message");
-        Logging.logger.log(Level.FINEST, "this ist a finest message");
+        Logging.logger.log(Level.SEVERE, "An serveer has occurred");
+        Logging.logger.log(Level.FINEST, "An error has occurred");
 
         // stopLogging
         logging.stop();
