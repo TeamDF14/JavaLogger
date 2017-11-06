@@ -18,7 +18,7 @@ public class Logging {
      * With this static logger you can log information of the logging levels Info, severe, warning,
      * fines.
      */
-    public static Logger logger = Logger.getLogger("MyLog");
+    public static Logger logger = Logger.getLogger(Logging.class.getName());
 
     /**
      * Var filehandler. It will once be initiated in the start method to save the logging file
