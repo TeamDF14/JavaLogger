@@ -31,6 +31,8 @@ logging.stop();
 ## Built With
 
 * [Maven](https://maven.apache.org/) - Dependency Management
+* [https://www.jetbrains.com/idea](https://www.jetbrains.com/idea) - Development environment
+* [JDK 1.8](http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html) - Java SE Development Kit 8
 
 ## Authors
 
