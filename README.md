@@ -36,7 +36,7 @@ logging.stop();
 
 * **Stefan Kuppelwieser** - [Github](https://github.com/StefanKuppelwieser) - [Website](https://wwww.kuppelwieser.net)
 
-See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.
+See also the list of [contributors](https://github.com/StefanKuppelwieser/JavaLogger/graphs/contributors) who participated in this project.
 
 ## License
 
